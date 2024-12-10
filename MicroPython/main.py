@@ -18,10 +18,7 @@ display.show(Image.HAPPY)
 
 # when button a is pressed
 if button_a.is_pressed():
-    if loop_counter >= 0:
-        True
-
-    while True:
+    while loop_counter >= 0:
         display.show(loop_counter)
         sleep(1)
 
