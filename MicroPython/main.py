@@ -1,6 +1,6 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
+Created by: Ella
+Created on: Dec 2024
 This module is a Micro:bit MicroPython program
 """
 
@@ -14,6 +14,7 @@ loop_counter = 4
 # setup
 display.clear()
 display.show(Image.HAPPY)
+
 
 while True:
     # when button a is pressed
